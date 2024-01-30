@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>My Website</title>
+    <link rel="shortcut icon" type="x-icon" href="img/icon.png" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body>
+    <section class="navsec">
+      <h1 class="navlogo">Nice<span>XD</span>man.</h1>
+      <div class="navdiv">
+        <a class="navabout" href="#About">About</a>
+        <a class="navmywork" href="#Work">My Work</a>
+        <a class="navhire" href="#Hire">Hire</a>
+        <a class="navcontact" href="#Contact">Contact</a>
+      </div>
+      <nav id="ham" class="hamburgermenu">
+        <input type="checkbox" />
+        <a href="#" id="hamburgerbutton">
+          <i class="hamicon" data-feather="menu"></i>
+        </a>
+      </nav>
+    </section>
+    <nav class="navmobile">
+      <a class="navabout" href="">About</a>
+      <a class="navmywork" href="">My Work</a>
+      <a class="navhire" href="">Hire</a>
+      <a class="navcontact" href="">Contact</a>
+    </nav>
+    <section class="aboutsec" id="About">
+      <div class="aboutbox">
+        <p><span>Hey!, im Rafa.</span></p>
+        <p><span> i design photo with Photoshop</span></p>
+        <p>
+          Im a 10th grade student that love designing or editing using photoshop
+          for the effects and blender for the models.
+        </p>
+      </div>
+    </section>
+    <section class="pagebreak" id="pagebreak2"></section>
+    <section class="worksec" id="Work">
+      <h1 data-aos="slide-right">My <span>Work</span></h1>
+      <div class="workbox">
+        <div class="imgdiv">
+          <img id="img1" class="imgleft" src="img/w1.jpg" alt="" />
+        </div>
+        <div class="imgdiv">
+          <img id="img2" class="imgright" src="img/w2.jpg" alt="" />
+        </div>
+        <div class="imgdiv">
+          <img id="img3" class="imgleft" src="img/w3.jpg" alt="" />
+        </div>
+        <div class="imgdiv">
+          <img id="img4" class="imgright" src="img/w4.jpg" alt="" />
+        </div>
+        <div class="imgdiv">
+          <img id="img5" class="imgleft" src="img/w5.jpg" alt="" />
+        </div>
+        <div class="imgdiv">
+          <img id="img6" class="imgright" src="img/w6.jpg" alt="" />
+        </div>
+        <div class="imgdiv">
+          <img id="img7" class="imgleft" src="img/w7.jpg" alt="" />
+        </div>
+        <div class="imgdiv">
+          <img id="img8" class="imgright" src="img/w8.jpg" alt="" />
+        </div>
+        <div class="imgdiv">
+          <img id="img9" class="imgleft" src="img/w9.jpg" alt="" />
+        </div>
+      </div>
+    </section>
+    <section class="pagebreak" id="pagebreak1"></section>
+    <section class="hiresec" id="Hire">
+      <main class="hirebox">
+        <div data-aos="fade-right" class="hireheader">
+          <h1>Feel free to talk to me..</h1>
+          <a href="#">Hire me</a>
+        </div>
+        <div class="hireimg">
+          <img data-aos="fade-left" src="img/hire.jpg" alt="" />
+        </div>
+      </main>
+    </section>
+    <section id="Contact" class="footersec">
+      <div class="footerbox">
+        <div class="copyright">
+          <p>created by <span>nxdm</span></p>
+        </div>
+        <div class="footerlink">
+          <a
+            class="datafeather"
+            href="https://www.instagram.com/parapaaaaaaaaaa/?next=%2F"
+            ><i data-feather="instagram"></i
+          ></a>
+          <a
+            class="datafeather"
+            href="https://www.youtube.com/channel/UC3q7tqqR2QHOiFfS9Utw8Xg"
+            ><i data-feather="youtube"></i
+          ></a>
+        </div>
+      </div>
+    </section>
+    <script>
+      feather.replace();
+    </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1000,
+        once: false,
+        function: "ease-out",
+      });
+    </script>
+    <script src="script.js"></script>
+  </body>
+</html>
